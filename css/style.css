@@ -1,0 +1,57 @@
+/* Styles for About + Product Sourcing Section */
+#about  {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-story {
+    margin-bottom: 2rem;
+}
+
+.about-sourcing h3 {
+    margin-bottom: 0.5rem;
+}
+
+.about-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.about-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 2rem;
+    grid-column: 1 / -1;
+}
+
+.social-links img {
+    width: 23px;
+    height: 23px;
+}
+@media (max-width: 768px) {
+    .about-layout {
+        grid-template-columns: 1fr;
+    }
+}
