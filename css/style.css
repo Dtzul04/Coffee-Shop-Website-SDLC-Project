@@ -28,13 +28,13 @@ body {
 }
 
 #about h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
     color: var(--about-accent);
 }
 
 #about h3 {
-    font-size: 1.25rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
     color: var(--about-accent);
 }
@@ -55,30 +55,53 @@ body {
 .about-media {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2rem;
-}
+    gap: 1rem;
+    padding-top: 2rem; 
+  }
 
 .about-media img {
     width: 100%;
-    min-height: 180px;
+    height: 220px;
     display: block;
     object-fit: cover;
-    background-color: #d4c4b0;
-    border: 1px solid #c4b09a;
+    object-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(44, 24, 16, 0.15);
 }
 
 .social-links {
     display: flex;
     justify-content: flex-start;
-    gap: 1rem;
+    align-items: center;
+    gap: 0.85rem;
     list-style: none;
     margin-top: 2rem;
+    padding: 0;
     grid-column: 1 / -1;
 }
 
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #e0d2c2;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(44, 24, 16, 0.12);
+}
+
 .social-links img {
-    width: 23px;
-    height: 23px;
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    display: block;
 }
 @media (max-width: 768px) {
     .about-layout {
@@ -88,5 +111,9 @@ body {
 
     #about {
         padding: 1.5rem 1rem;
+    }
+
+    .about-media img {
+        height: 200px;
     }
 }
