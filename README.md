@@ -5,6 +5,7 @@ A responsive single-page website for a fictional coffee shop, built as part of a
 ---
 
 ## Tech Stack
+
 - HTML5
 - CSS3
 - JavaScript (vanilla)
@@ -12,6 +13,7 @@ A responsive single-page website for a fictional coffee shop, built as part of a
 ---
 
 ## Features
+
 - [ ] Responsive design
 - [ ] Hero section
 - [ ] Menu section
@@ -22,15 +24,17 @@ A responsive single-page website for a fictional coffee shop, built as part of a
 ---
 
 ## How to Run
+
 1. Clone the repo:
-   ```
+  ```
    git clone [your-repo-url]
-   ```
+  ```
 2. Open `index.html` in your browser.
 
 ---
 
 ## Project Structure
+
 ```
 coffee-shop-website/
 ├── index.html
@@ -47,15 +51,23 @@ coffee-shop-website/
 
 ---
 
+
+
 ## Team & Roles
-| Name | Role |
-|------|------|
-| Daniel T. | Content Strategist (Lead), Content Developer, SEO Specialist |
-| Adriana | Content Designer, Menu & Product Specialist, Marketing Specialist |
+
+
+| Name      | Role                                                              |
+| --------- | ----------------------------------------------------------------- |
+| Daniel T. | Content Strategist (Lead), Content Developer, SEO Specialist      |
+| Adriana   | Content Designer, Menu & Product Specialist, Marketing Specialist |
+
 
 ---
 
+
+
 ## Git Workflow
+
 - **Pull before you edit**, push right after you're done.
 - No direct commits to `main` — use a feature branch for your section.
 - Open a Pull Request to merge; the other person reviews before merging.
@@ -63,12 +75,20 @@ coffee-shop-website/
 
 ---
 
+
+
 ## Deployment
+
 Hosted via **GitHub Pages**.
 
 ---
 
+
+
 ## Notes
+
+Menu and Logo images are from Unsplash and Pixabay.
+
 The file .gitkeep is added as a placeholder until real images are added.
 
 *Built for INEW 2330 – Capstone Course, Dallas College*
