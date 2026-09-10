@@ -69,6 +69,12 @@ Hosted via **GitHub Pages**.
 ---
 
 ## Notes
-The file .gitkeep is added as a placeholder until real images are added.
+Social links use `href="#"` placeholders because this is a fictional shop for class.
+
+### Image & icon sources
+- https://www.pexels.com/ (About photos)
+  1. onetoforseeforall
+  2. Sami Abdullah
+- https://icons8.com/ (Social icons)
 
 *Built for INEW 2330 – Capstone Course, Dallas College*
