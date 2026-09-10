@@ -61,6 +61,7 @@ main {
 
 .hero {
   padding: 3rem 0 2rem;
+  text-align:center;
 }
 
 .hero h2 {
@@ -73,8 +74,18 @@ section p {
   color: var(--muted);
 }
 
+#button{
+background-color: #EED9C4;
+padding: 6px;
+border-radius: 6px;
+}
+
 section {
   margin-top: 2.5rem;
+}
+
+#menu h2 {
+  text-align: center;
 }
 
 section h2 {
@@ -88,7 +99,49 @@ section h2 {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  text-align: center;
+}
+
+.menu-card {
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 1rem 1rem 0;
+}
+
+.menu-card h4 {
+  margin-bottom: 8px;
+
+}
+
+.menu-card h4:hover {
+font-size: 1.1em;
+}
+
+.menu-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.items {
+list-style-type: none;
+}
+
 @media (max-width: 600px) {
+  .menu-items {
+    grid-template-columns: 1fr;
+  }
+.menu-card img {
+    display: none;
+}
+
   .site-header {
     flex-wrap: wrap;
   }

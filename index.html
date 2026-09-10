@@ -9,7 +9,7 @@
   <body>
     <header class="site-header">
       <img src="images/logo.png" alt="Coffee Shop logo" class="logo" />
-      <h1>Coffee Shop</h1>
+      <h1>Daily Brew</h1>
       <nav>
         <a href="#menu">Menu</a>
         <a href="#about">About</a>
@@ -20,12 +20,51 @@
     <main>
       <section id="hero" class="hero">
         <h2>Brewing Connections One Cup at a Time.</h2>
-        <p></p>
+        <button id="button">Order Now</button>
       </section>
+
+      <hr>
 
       <section id="menu">
         <h2>Menu</h2>
-        <p>Menu items will go here.</p>
+          <div class="menu-items">
+            <article class="menu-card">
+             <h4>Coffee</h4>
+             <img class="category-img" src="images/menu/coffee.jpg" alt="Iced coffee" />
+              <ul class="items">
+                  <p>Available Hot or Iced</p>
+                  <p>Milk Options: Whole, Oat, Almond, Soy</p>
+                  <li>Espresso $2.50</li>
+                  <li>Latte $6</li>
+                  <li>Macchiato $5</li>
+                  <li>Americano $3.50</li>
+              </ul>
+            </article>
+
+            <article class="menu-card">
+              <h4>Teas & Refreshers</h4>
+              <img class="category-img" src="images/menu/tea.jpg" alt="Iced Tea" />
+              <ul class="items">
+                <p>Teas Available Hot or Iced</p>
+                <li>Green Tea $3.00</li>
+                <li>Black Tea $3.00</li>
+                <li>Strawberry Lemonade $3.50</li>
+                <li>Mango Lemonade $3.50</li>
+              </ul>
+            </article>
+
+            <article class="menu-card">
+              <h4>Pastries</h4>
+              <img class="category-img" src="images/menu/bread.jpg" alt="Pastries" />
+              <ul class="items">
+                <p>Gluten Free Options Available</p>
+                <li>Croissant $2.00</li>
+                <li>Muffin $1.50</li>
+                <li>Coffee Cake $3.50</li>
+                <li>Biscuit $1.00</li>
+              </ul>
+            </article>
+          </div>
       </section>
 
       <section id="about">
@@ -34,15 +73,16 @@
       </section>
 
       <section id="contact">
-        <h2>Contact</h2>
-        <p>Contact details will go here.</p>
+        <h2>Contact Us</h2>
+        <p></p>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>&copy; 2026 Coffee Shop Website</p>
+      <p>&copy; 2026 Daily Brew</p>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
