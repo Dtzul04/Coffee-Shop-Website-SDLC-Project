@@ -87,7 +87,15 @@ Hosted via **GitHub Pages**.
 
 ## Notes
 
-Menu and Logo images are from Unsplash and Pixabay.
+Logo and menu images are from Unsplash and Pixabay.
+
+[https://unsplash.com/photos/clear-drinking-glass-with-tea-kbch-i63YTg](https://unsplash.com/photos/clear-drinking-glass-with-tea-kbch-i63YTg)
+
+[https://unsplash.com/photos/clear-glass-filled-ice-coffee-vZOZJH_xkUk](https://unsplash.com/photos/clear-glass-filled-ice-coffee-vZOZJH_xkUk)
+
+[https://pixabay.com/photos/bread-croissant-food-breakfast-101636/](https://pixabay.com/photos/bread-croissant-food-breakfast-101636/)
+
+[https://pixabay.com/vectors/cup-espresso-tea-coffee-beverage-149682/](https://pixabay.com/vectors/cup-espresso-tea-coffee-beverage-149682/)
 
 The file .gitkeep is added as a placeholder until real images are added.
 
