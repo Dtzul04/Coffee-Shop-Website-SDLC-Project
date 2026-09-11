@@ -1,78 +1,80 @@
 :root {
-  --bg: #1c1410;
-  --surface: #2a1f18;
-  --text: #f5ebe0;
-  --muted: #c9b8a6;
-  --accent: #c47a3a;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    --about-bg: #f7f1e9;
+    --about-text: #2c1810;
+    --about-muted: #5c4033;
+    --about-accent: #8b5a2b;
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: radial-gradient(circle at top, #3a2a20, var(--bg));
-  color: var(--text);
-  line-height: 1.6;
-  min-height: 100vh;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.5;
+    color: var(--about-text); 
+    background-color: #2c1810;
+    color: #f5ebe0;
 }
 
-.site-header {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem 1.5rem;
-  background: rgba(0, 0, 0, 0.25);
+/* Styles for About + Product Sourcing Section */
+/* #about  {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--about-bg);
+    color: var(--about-text);
 }
 
-.logo {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
+.about-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 3rem;
+    align-items: center;
 }
 
-.site-header h1 {
-  font-size: 1.4rem;
-  margin-right: auto;
+#about h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--about-accent);
 }
 
-nav {
-  display: flex;
-  gap: 1rem;
+#about h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--about-accent);
 }
 
-nav a {
-  color: var(--muted);
-  text-decoration: none;
+#about p {
+    color: var(--about-muted);
+    margin-bottom: 0;
 }
 
-nav a:hover {
-  color: var(--accent);
+.about-story {
+    margin-bottom: 2rem;
 }
 
-main {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
+.about-sourcing h3 {
+    margin-bottom: 0.5rem;
 }
 
+ .about-media {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding-top: 2rem;
+} 
+ ======= 
 .hero {
   padding: 3rem 0 2rem;
   text-align:center;
 }
 
-.hero h2 {
+ .hero h2 {
   font-size: 2.2rem;
   margin-bottom: 0.5rem;
-}
+} 
 
-.hero p,
+ .hero p,
 section p {
   color: var(--muted);
-}
+*/
 
 #button{
 background-color: #EED9C4;
@@ -92,13 +94,22 @@ section {
 
 section h2 {
   margin-bottom: 0.5rem;
-}
+} 
 
-.site-footer {
+
+/* styles for the contact + footer */
+ .site-footer {
   text-align: center;
   padding: 1.5rem;
   color: var(--muted);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+} 
+
+#contact {
+  text-align: center;
+  color: #f5ebe0;
+  
 }
 
 .menu-items {
@@ -150,10 +161,7 @@ list-style-type: none;
 
   .site-header {
     flex-wrap: wrap;
-  }
 
-  .site-header h1 {
-    margin-right: 0;
   }
 
   nav {
