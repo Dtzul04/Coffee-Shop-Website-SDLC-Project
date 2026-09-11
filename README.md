@@ -87,17 +87,16 @@ Hosted via **GitHub Pages**.
 
 ## Notes
 
-The contact-footer branch has styles from the about + social branch. 
+Logo and menu images are from Unsplash and Pixabay.
 
-Social links use `href="#"` placeholders because this is a fictional shop for class.
+[https://unsplash.com/photos/clear-drinking-glass-with-tea-kbch-i63YTg](https://unsplash.com/photos/clear-drinking-glass-with-tea-kbch-i63YTg)
 
-Email, Phone, and Address are fictional. 
+[https://unsplash.com/photos/clear-glass-filled-ice-coffee-vZOZJH_xkUk](https://unsplash.com/photos/clear-glass-filled-ice-coffee-vZOZJH_xkUk)
 
-### Image & icon sources
+[https://pixabay.com/photos/bread-croissant-food-breakfast-101636/](https://pixabay.com/photos/bread-croissant-food-breakfast-101636/)
 
-- [https://www.pexels.com/](https://www.pexels.com/) (About photos)
-  1. onetoforseeforall
-  2. Sami Abdullah
-- [https://icons8.com/](https://icons8.com/) (Social icons)
+[https://pixabay.com/vectors/cup-espresso-tea-coffee-beverage-149682/](https://pixabay.com/vectors/cup-espresso-tea-coffee-beverage-149682/)
+
+The file .gitkeep is added as a placeholder until real images are added.
 
 *Built for INEW 2330 – Capstone Course, Dallas College*
