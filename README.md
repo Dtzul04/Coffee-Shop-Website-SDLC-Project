@@ -8,7 +8,7 @@ A responsive single-page website for a fictional coffee shop, built as part of a
 
 - HTML5
 - CSS3
-- JavaScript (vanilla + jQuery)
+- JavaScript (vanilla)
 
 ---
 
